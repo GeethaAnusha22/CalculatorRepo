@@ -1,74 +1,83 @@
 package com.abc.demo;
-
-import java.util.Scanner;
-
+ 
 public class Calculator {
  
     public static void main(String[] args) {
  
         double num1, num2;
 
-        Scanner sc = new Scanner(System.in);
+        //Scanner sc = new Scanner(System.in);
  
-        System.out.println("Enter the numbers:");
+//        System.out.println("Enter the numbers:");
 
-        num1 = sc.nextDouble();
+        num1 = 110;
 
-        num2 = sc.nextDouble();
+        num2 = 20;
  
-        System.out.println("Enter the operator (+, -, *):");
+        //System.out.println("Enter the operator (+, -, *):");
 
-        char operator = sc.next().charAt(0);
+       // char operator = sc.next().charAt(0);
  
-        double result;
+//        double result;
 
-        switch (operator) {
+//        switch (operator) {
 
-            case '+':
+//            case '+':
 
-                result = num1 + num2;
+//                result = num1 + num2;
 
-                break;
- 
-            case '-':
+//                break;
 
-                result = num1 - num2;
+//
 
-                break;
- 
-            case '*':
+//            case '-':
 
-                result = num1 * num2;
+//                result = num1 - num2;
 
-                break;
- 
-            case '/':
+//                break;
 
-                if (num2 == 0) {
+//
 
-                    System.out.println("Division by zero is not allowed.");
+//            case '*':
 
-                    return;
+//                result = num1 * num2;
 
-                }
+//                break;
 
-                result = num1 / num2;
+//
 
-                break;
- 
-            default:
+//            case '/':
 
-                System.out.println("Invalid operator.");
+//                if (num2 == 0) {
 
-                return;
+//                    System.out.println("Division by zero is not allowed.");
 
-        }
+//                    return;
 
-        System.out.println("The final result:");
+//                }
 
-        System.out.println(num1 + " " + operator + " " + num2 + " = " + result);
+//                result = num1 / num2;
+
+//                break;
+
+//
+
+//            default:
+
+//                System.out.println("Invalid operator.");
+
+//                return;
+
+//        }
+
+        System.out.println("The final result:"+(num1+num2));
+
+       // System.out.println(num1 + " " + operator + " " + num2 + " = " + result);
+
+        System.out.println("Code Execution Completed");
 
     }
 
 }
+
  
